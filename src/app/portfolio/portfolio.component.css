@@ -1,0 +1,52 @@
+a:hover,.active{
+    background-color: #004255;
+    border-radius: 5px;
+    color: #fff !important;
+}
+li a{
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+.left{
+    width: 20%;
+    float: left;
+    background-color: #4797ae;
+    border-radius: 5px;
+    padding: 1em;
+    height: 250px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.right{
+    width: 70%;
+    float: right;
+    background-color: #4797ae;
+    border-radius: 5px;
+    padding: 1em;
+    color: #fff;
+    height: 250px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.row{
+    background-color: azure;
+    padding: 2em;
+}
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
