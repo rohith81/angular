@@ -1,0 +1,57 @@
+nav{
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: #4797ae;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li a:hover, .active{
+    background-color: #004255;
+    border-radius: 5px;
+}
+.submenu ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    position: relative;
+}
+.submenu{
+    background-color: #004255;
+    padding: 1em 0.5em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200%;
+    padding-bottom: 0;
+    z-index: 99;
+}
+.submenu a{
+    text-decoration: none;
+    padding: 10px 0;
+}
+.submenu li{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.submenu li:last-child{
+    border-bottom: 0;
+}
+.submenu a:hover{
+    background-color: transparent;
+    border-radius: 0;
+}

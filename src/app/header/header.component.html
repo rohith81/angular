@@ -1,0 +1,20 @@
+<header>
+<nav>
+  <ul>
+    <li><a routerLink="./home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="./about" routerLinkActive="active">About Us</a></li>
+    <li (mouseenter)="nav = 'skills'" (mouseleave)="nav = ''">
+      <a>Skills</a>
+      <div class="submenu" *ngIf="nav == 'skills'">
+        <ul>
+            <li><a routerLink="./html" routerLinkActive="active">HTML & CSS</a></li>
+            <li><a routerLink="./javascript" routerLinkActive="active">JAVASCRIPT</a></li>
+            <li><a routerLink="./angular" routerLinkActive="active">ANGULAR</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a routerLink="./portfolio" routerLinkActive="active">Portfolio</a></li>
+    <li><a routerLink="./contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+</nav>
+</header>
