@@ -3,6 +3,9 @@ a:hover,.active{
     border-radius: 5px;
     color: #fff !important;
 }
+img{
+    height: 200px;
+}
 li a{
     color: #fff;
     padding: 10px 20px;
@@ -49,4 +52,7 @@ ul{
     content: '';
     display: table;
     clear: both;
+}
+img{
+    width: 100%;
 }

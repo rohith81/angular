@@ -17,7 +17,8 @@ import { PortfolioComponent } from "./portfolio.component";
     ],
     imports:[ 
         PortfolioRoutesModule
-    ]
+    ],
+    exports:[PortfolioRoutesModule]
 })
 export class PortfolioModule{
 

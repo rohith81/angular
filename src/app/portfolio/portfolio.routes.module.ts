@@ -9,9 +9,9 @@ import { Project3Component } from "./project3/project3.component";
 
 @NgModule({
     imports:[ 
-        RouterModule.forRoot([
+        RouterModule.forChild([
         {
-            path: 'portfolio',
+            path: '',
             component: PortfolioComponent,
             children: [
               {

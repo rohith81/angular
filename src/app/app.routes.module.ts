@@ -23,6 +23,10 @@ import { ContactComponent } from "./contact/contact.component";
             {
               path: 'contact',
               component: ContactComponent
+            },
+            {
+              path: 'portfolio',
+              loadChildren: './portfolio/portfolio.module#PortfolioModule'
             }
           ]),
     ],
